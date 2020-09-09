@@ -1,26 +1,30 @@
 body {
 background-color: #222629;
+height: 3000px;
 }
 /*NAVIGATION*/
 #Navigation{
 
 }
 li {
+
   float: left;
   list-style: none;
-  border: 5px solid red;
+  border: 5px solid transparent;
   color: white;
-
+  padding: 3px 30px 3px 30px;
+  font-family: arial;
 }
 li:hover{
-  background-color: white;
-  color: black;
+  background-color: #86C232;
+  color: #6B6E70;
+  transition: 0.5s;
 }
 div {
   position: fixed;
   left: 0;
   top: 0;
   width: 2000px;
-  background-color: black;
+  background-color: #61892F;
   height: 80px;
 }
