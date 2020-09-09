@@ -1,17 +1,26 @@
 body {
-
-  background-image: url("beach-4530127.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.6;
+background-color: #222629;
+}
+/*NAVIGATION*/
+#Navigation{
 
 }
 li {
-  list-style: none;
   float: left;
-  margin-left: 5px;
+  list-style: none;
+  border: 5px solid red;
+  color: white;
+
 }
-p {
-  border: 50px;
-  border-color: yellow;
+li:hover{
+  background-color: white;
+  color: black;
+}
+div {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 2000px;
+  background-color: black;
+  height: 80px;
 }
