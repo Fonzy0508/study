@@ -69,13 +69,13 @@ p {
   font-size: 90px;
   position: absolute;
   top: 100px;
-  left: 40px;
+  left: 10px;
 }
 .to {
   font-family: arial;
   font-size: 50px;
   position: absolute;
-  top: 240px;
-  left: 70px;
+  top: 220px;
+  left: 20px;
   color: black;
 }
