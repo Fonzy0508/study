@@ -6,8 +6,10 @@ height: 3000px;
 #Navigation{
 
 }
+ul{
+  display: block;
+}
 li {
-
   float: left;
   list-style: none;
   border: 5px solid transparent;
@@ -80,6 +82,7 @@ p {
 /*picDivleft*/
 #pictureleft {
   position: relative;
+  top: 100px;
   float: right;
   width: 500px;
   height: 300px;
@@ -87,13 +90,12 @@ p {
   background-color: red;
 }
 #picturecontainer {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  position:relative;
+float: right;
   width: 50px;
   height: 300px;
   background-color: yellow;
-  background-image: url(beach-4530127.jpg);
+  background-image: url(java.jpg);
   background-position: top left;
   background-size: cover;
   z-index: 3;
@@ -103,4 +105,10 @@ p {
   width: 500px;
   transition: 2s;
   opacity: 1;
+}
+#Javaletter {
+  font-family: sans-serif;
+  font-style: arial;
+  font-weight: bold;
+  font-size: 30px;
 }
