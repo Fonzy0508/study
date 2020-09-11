@@ -45,7 +45,7 @@ div {
   background-image: url(coding-924920.jpg);
   width:1349px;
   height: 690px;
-  background-position: top lef;
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -92,20 +92,23 @@ p {
   color: black;
 }
 /*picDivleft*/
-#pictureleft {
+#pictureright {
+  background-image: url(Java_logo_icon.png);
+  background-size: 500px 200px;
+  background-repeat: no-repeat;
   position: relative;
   top: 550px;
   float: left;
-  width: 500px;
+  width: 400px;
   height: 300px;
-  background-color: red;
+  background-color: white;
   z-index: 2;
-  background-image: url();
+
 }
 #picturecontainer {
   position:relative;
   float: right;
-  width: 500px;
+  width: 400px;
   height: 300px;
   background-color: yellow;
   background-image: url(java.jpg);
@@ -115,12 +118,6 @@ p {
   opacity: 0;
 }
 #picturecontainer:hover{
-  transition: 2s;
+  transition: 1s;
   opacity: 1;
-}
-#Javaletter {
-  font-family: sans-serif;
-  font-style: arial;
-  font-weight: bold;
-  font-size: 30px;
 }
