@@ -4,7 +4,7 @@ height: 3000px;
 }
 /*NAVIGATION*/
 #Navigation{
-
+  z-index: 3;
 }
 ul{
   display: block;
@@ -39,6 +39,18 @@ div {
   background-color: #86C232;
   color: #6B6E70;
 }
+/*first bg*/
+#bg1 {
+  position:absolute;
+  background-image: url(coding-924920.jpg);
+  width:1349px;
+  height: 690px;
+  background-position: top lef;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
 /*body text*/
 .Trans {
   transition: 3s;
@@ -68,41 +80,41 @@ p {
   font-family: arial;
   font-size: 90px;
   position: absolute;
-  top: 100px;
-  left: 10px;
+  top: 30px;
+  right: 280px;
 }
 .to {
   font-family: arial;
   font-size: 50px;
   position: absolute;
-  top: 220px;
-  left: 20px;
+  top: 150px;
+  right: 250px;
   color: black;
 }
 /*picDivleft*/
 #pictureleft {
   position: relative;
-  top: 100px;
-  float: right;
+  top: 550px;
+  float: left;
   width: 500px;
   height: 300px;
-
   background-color: red;
+  z-index: 2;
+  background-image: url();
 }
 #picturecontainer {
   position:relative;
-float: right;
-  width: 50px;
+  float: right;
+  width: 500px;
   height: 300px;
   background-color: yellow;
   background-image: url(java.jpg);
   background-position: top left;
   background-size: cover;
-  z-index: 3;
-  opacity: 0.1;
+  z-index: -1;
+  opacity: 0;
 }
 #picturecontainer:hover{
-  width: 500px;
   transition: 2s;
   opacity: 1;
 }
