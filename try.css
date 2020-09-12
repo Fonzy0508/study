@@ -91,11 +91,8 @@ p {
   right: 250px;
   color: black;
 }
-/*picDivright*/
-#pictureright {
-  background-image: url(java.jpg);
-  background-position: top left;
-  background-size: cover;
+/*picDiv*/
+#pictureback {
   position: relative;
   top: 550px;
   float: left;
@@ -103,6 +100,18 @@ p {
   height: 300px;
   background-color: white;
   z-index: 2;
+}
+.first{
+  background-image: url(java.jpg);
+  background-position: top left;
+  background-size: cover;
+}
+.second {
+  background-image: url(code-1557582.jpg);
+  background-position: top left;
+  background-size: cover;
+}
+.third {
 
 }
 #picturecontainer {
@@ -110,12 +119,25 @@ p {
   float: right;
   width: 400px;
   height: 300px;
-  background-image: url(Java_logo_icon.png);
-  background-size: 390px 420px;
-  background-repeat: no-repeat;
-  background-color: white;
   z-index: -1;
   opacity: 0;
+}
+.right {
+  background-image: url(Java_logo_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.mid{
+  background-image: url(logo-2582748_1920.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.left {
+  
 }
 #picturecontainer:hover{
   transition: 1s;
