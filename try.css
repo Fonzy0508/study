@@ -112,7 +112,9 @@ p {
   background-size: cover;
 }
 .third {
-
+  background-image: url(coding-1853305.jpg);
+  background-position: top left;
+  background-size: cover;
 }
 #picturecontainer {
   position:relative;
@@ -137,7 +139,11 @@ p {
   background-color: white;
 }
 .left {
-  
+  background-image: url(csslogo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 #picturecontainer:hover{
   transition: 1s;
