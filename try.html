@@ -4,14 +4,19 @@
   <head>
     <link rel="stylesheet" href="try.css">
     <meta charset="utf-8">
+    <script src="try.js" charset="utf-8"></script>
     <title>Try Web</title>
   </head>
   <body>
+    <div id="menu">
+      <button type="button" id="zzy" onclick="close1()">X</button>
+      <img src="csslogo.png" alt="pic" id="pic1" onclick="color()"/>
+    </div>
       <!--Navigation-->
       <div id="Navigation">
         <ul id="Navigation">
           <li ><p><a href="#first">Home</a></p></li>
-          <li ><p><a href="#">About me</a></p></li>
+          <li ><p><a href="#" onclick="color()">About me</a></p></li>
           <li><p><a href="#">settings</a></p></li>
         </ul>
       </div>
