@@ -2,6 +2,32 @@ body {
 background-color: #222629;
 height: 3000px;
 }
+/*profile*/
+#menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  z-index: 5;
+  transition: 2s ease;
+  border-radius: 50px;
+}
+#pic1 {
+  width: 50px;
+  height: 50px;
+  transition: 2s ease;
+}
+#zzy {
+  visibility: hidden;
+  color: yellow;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 6;
+  transition: 2s ease;
+}
 /*NAVIGATION*/
 #Navigation{
   z-index: 3;
@@ -139,7 +165,7 @@ p {
   background-color: white;
 }
 .left {
-  background-image: url(csslogo.png);
+  background-image: url(csslogo.pnggit);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
