@@ -12,6 +12,7 @@ height: 3000px;
   background-color: red;
   z-index: 5;
   transition: 2s ease;
+  border-radius: 50px;
 }
 #pic1 {
   width: 50px;
