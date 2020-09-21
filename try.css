@@ -5,19 +5,26 @@ height: 3000px;
 /*profile*/
 #menu {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 15px;
+  left: 5px;
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #222629;
   z-index: 5;
   transition: 2s ease;
   border-radius: 50px;
+  opacity: 0.9;
 }
 #pic1 {
+  position: fixed;
+  top: 15px;
+  left: 5px;
   width: 50px;
   height: 50px;
+  border-radius: 100px;
   transition: 2s ease;
+  opacity: 1;
+  z-index: 6;
 }
 #zzy {
   visibility: hidden;
