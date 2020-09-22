@@ -13,7 +13,6 @@ height: 3000px;
   z-index: 5;
   transition: 2s ease;
   border-radius: 50px;
-  opacity: 0.9;
 }
 #pic1 {
   position: fixed;
@@ -30,10 +29,11 @@ height: 3000px;
   visibility: hidden;
   color: yellow;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 40px;
+  left: 40px;
   z-index: 6;
-  transition: 2s ease;
+  transition: visibility 1s;
+  background-color: #222629;
 }
 /*NAVIGATION*/
 #Navigation{
@@ -49,6 +49,9 @@ li {
   padding: 3px 30px 3px 30px;
   font-family: arial;
   font-weight: bold;
+}
+#hi {
+  margin-left: 30px;
 }
 a {
   text-decoration: none;
