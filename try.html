@@ -8,15 +8,14 @@
     <title>Try Web</title>
   </head>
   <body>
-      <div id="menu">
-        <button type="button" id="zzy" onclick="close1()">X</button>
-        <img src="download (1).png" id="pic1" alt="prof" onclick="open1()"/>
+      <div id="menu" onmouseover="open1(this)" onmouseout="close1(this)">
+        <img src="download (1).png" id="pic1" alt="prof" onmouseover="open1(this)"/>
       </div>
       <!--Navigation-->
       <div id="Navigation">
         <ul id="Navigation">
           <li id="hi"><p><a href="#first">Home</a></p></li>
-          <li ><p><a href="#" onclick="open1()">About me</a></p></li>
+          <li ><p><a href="#" onmouseover="open1(this)">About me</a></p></li>
           <li><p><a href="#">settings</a></p></li>
         </ul>
       </div>
@@ -26,7 +25,7 @@
             <p class="Welcome Trans" id="first">Welcome</p>
             <p class="to Trans">to my Website</p>
             <p class="Created">Created by</p>
-            <p class="name Trans">Alfonso P. Puente</p>
+            <p class="name Trans" onclick="open1(this)">Alfonso P. Puente</p>
           </span>
         </div>
         <!--picDivmid-->

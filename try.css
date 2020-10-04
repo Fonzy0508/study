@@ -25,16 +25,6 @@ height: 3000px;
   opacity: 1;
   z-index: 6;
 }
-#zzy {
-  visibility: hidden;
-  color: yellow;
-  position: fixed;
-  top: 40px;
-  left: 40px;
-  z-index: 6;
-  transition: visibility 1s;
-  background-color: #222629;
-}
 /*NAVIGATION*/
 #Navigation{
   z-index: 3;
@@ -154,7 +144,7 @@ p {
 }
 #picturecontainer {
   position:relative;
-  float: right;
+  float: left;
   width: 400px;
   height: 300px;
   z-index: -1;
@@ -175,7 +165,7 @@ p {
   background-color: white;
 }
 .left {
-  background-image: url(csslogo.pnggit);
+  background-image: url(csslogo.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
